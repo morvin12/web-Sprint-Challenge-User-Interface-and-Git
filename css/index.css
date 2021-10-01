@@ -76,20 +76,31 @@ nav a{
 }
 nav{
     display: flex;
+    justify-content: space-between;
     width: 100%;
     padding: 2%;
 }
 .logo{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: baseline;
-    width: 100%;
-    margin: 2%;
+    gap: 80px;
+    width: 60%;
+    margin-left: 20%;
+}
+.header-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-left: 20%;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+    padding-top: 2%;
 }
 
 .top-content {
